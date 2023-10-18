@@ -532,6 +532,8 @@ public class CompleteMission extends SimpleMission {
 
 		final ElementTypeFilter DazzleConditionFilter = new ElementTypeFilter("SiteDazzling", True);
 
+		DazzleConditionFilter.applyTo(siteAccessTimeline);
+
 		/*
 		 * Now make sure your globalTimeline represents the access Timeline for the
 		 * input target Site and it's done ! You can print the Timeline using the
